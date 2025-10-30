@@ -1,5 +1,6 @@
 #/bin/bash
-
+#SPDX-FileCopyrightText: 2025 Matumoto Hayoto
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
          echo ${1}行目が違うよ
