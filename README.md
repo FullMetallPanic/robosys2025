@@ -1,7 +1,7 @@
 # robosys2025
 ロボットシステム学課題１
 
-#plusコマンド
+# plusコマンド
 ![test](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す
@@ -10,11 +10,11 @@
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-##必要なソフトウェア
+## 必要なソフトウェア
 - Pyton
 　- テスト済みバージョン:3.7 ~ 3.14
 
-##テスト環境
+## テスト環境
 - Ubuntu 22.04.5 LTS
 
 
