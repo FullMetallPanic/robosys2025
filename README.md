@@ -2,7 +2,7 @@
 ロボットシステム学課題１
 
 # plusコマンド
-![test](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/FullMetallPanic/robosys2025/actions)
 
 標準入力から読み込んだ数字を足す
 
