@@ -41,6 +41,7 @@ $chmod +x syodou
 -[遊戯王の確率の話：初動実測のすすめ](https://note.com/ttoyp/n/n8a6e4b0f1cb9)
 
 -[【python初心者】特定のカードを手札に引く確率を計算するプログラム【MTG】](https://note.com/witty_minnow598/n/n0c4039a14cda)
+
 -利用・参照したコード
    -このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
    
