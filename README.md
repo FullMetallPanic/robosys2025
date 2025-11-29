@@ -50,4 +50,4 @@ $chmod +x syodou
 ## ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
 
-- © 2025 FullMetallPanic
+- © 2025 Matumoto Hayato
