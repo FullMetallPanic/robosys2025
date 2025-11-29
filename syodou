@@ -18,7 +18,8 @@ if len(values) != 3:
 deck_size, desired_cards, hand_size = values
 
 try:
-    prob = 1 - comb(deck - desired, hand) / comb(deck, hand)
+    prob = 1 - comb(deck_size - desired_cards, hand_size) / comb(deck_size, hand_size)
+
 except:
     sys.exit(1)
 
