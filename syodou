@@ -7,22 +7,28 @@ from math import comb
 
 values = []
 for line in sys.stdin:
-    try:
-        values.append(int(line.strip()))
-    except:
+    line = line.strip()
+    if not line:
         continue
+    try:
+        values.append(int(line))
+    except ValueError:
+        sys.exit(1)
 
 if len(values) != 3:
     sys.exit(1)
 
 deck_size, desired_cards, hand_size = values
 
-try:
-    prob = 1 - comb(deck_size - desired_cards, hand_size) / comb(deck_size, hand_size)
-
-except:
+if not (0 <= desired_cards <= deck_size and 0 <= hand_size <= deck_size):
     sys.exit(1)
 
-print(prob)
+try:
+    numerator = comb(deck_size - desired_cards, hand_size)
+    denominator = comb(deck_size, hand_size)
+    prob = 1 - numerator / denominator
+except Exception:
+    sys.exit(1)
 
+print(prob, end="")
 
