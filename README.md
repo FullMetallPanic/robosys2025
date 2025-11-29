@@ -2,7 +2,7 @@
 ロボットシステム学課題１
 
 # plusコマンド
-![test](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml)
+[![test](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml/badge.svg)](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml)
 
 
 何をするためのソフトか使い方、どんな環境で使えるか、テスト結果、権利関係謝辞その他必要なこと
