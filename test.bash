@@ -22,6 +22,10 @@ echo -e "40\n4" | ./syodou >/dev/null 2>&1
 echo -e "aaa\n4\n5" | ./syodou >/dev/null 2>&1
 [ $? -eq 1 ] || ng ${LINENO}
 
+echo -e "あいうえお\n4\n5" | ./syodou >/dev/null 2>&1
+[ $? -eq 1 ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
+
 
