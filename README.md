@@ -1,5 +1,4 @@
-# robosys2025
-ロボットシステム学課題１
+# カードゲームの確率計算機
 
 # plusコマンド
 [![test](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml/badge.svg)](https://github.com/FullMetallPanic/robosys2025/actions/workflows/test.yml)
@@ -7,7 +6,7 @@
 -カードゲームなどで特定のカードが手札に含まれる確率を計算するツールです。
 
 ## 実行例
--実行するとき、"デッキの総数\引きたいカード\ドローする枚数"という順番で数字を入力します。
+-実行するとき、"デッキの総数\引きたいカード\ドローする枚数"という順番で数字を入力する。
 ```
 $echo -e 40\e4\e5 | ./syodou 
 0.4270707954918481
