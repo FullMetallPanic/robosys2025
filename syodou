@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Matumoto Hayoto
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+from math import comb
+
+values = []
+for line in sys.stdin:
+    try:
+        values.append(int(line.strip()))
+    except:
+        continue
+
+if len(values) != 3:
+    sys.exit(1)
+
+deck_size, desired_cards, hand_size = values
+
+try:
+    prob = 1 - comb(deck_size - desired_cards, hand_size) / comb(deck_size, hand_size)
+except:
+    sys.exit(1)
+
+print(prob)
+
+
