@@ -18,11 +18,11 @@ float_equal() {
     [ $(echo "$absdiff < $tolerance" | bc -l) -eq 1 ]
 }
 
-out=$(echo -e "40\n4\n5" | ./syodou)
+out=$(echo -e "40\n4\n5" | ./syodou | tr -d '\n')
 expected="0.4270707954918481"
 float_equal "$out" "$expected" || ng ${LINENO}
 
-out=$(echo -e "60\n6\n5" | ./syodou)
+out=$(echo -e "60\n6\n5" | ./syodou | tr -d '\n')
 expected="0.4209460676823561"
 float_equal "$out" "$expected" || ng ${LINENO}
 
