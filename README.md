@@ -36,10 +36,10 @@ $chmod +x syodou
 
 ## 謝辞
 
--web記事
-　　
+-web記事　　
    
 -[遊戯王の確率の話：初動実測のすすめ](https://note.com/ttoyp/n/n8a6e4b0f1cb9)
+
 -[【python初心者】特定のカードを手札に引く確率を計算するプログラム【MTG】](https://note.com/witty_minnow598/n/n0c4039a14cda)
 -
 -利用・参照したコード
