@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2025 Matumoto Hayoto
 # SPDX-License-Identifier: BSD-3-Clause
 
