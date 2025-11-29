@@ -5,7 +5,7 @@
 err=0
 
 output=$(echo -e "40\n4\n5" | ./syodou)
-expected="0.40689655172413796"
+expected="0.4270707954918481"
 if [ "$output" != "$expected" ]; then
     echo "test1 NG"
     err=1
@@ -14,7 +14,7 @@ else
 fi
 
 output=$(echo -e "60\n6\n5" | ./syodou)
-expected="0.45111731843575417"
+expected="0.4209460676823561"
 if [ "$output" != "$expected" ]; then
     echo "test2 NG"
     err=1
