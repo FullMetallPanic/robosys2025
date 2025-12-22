@@ -19,19 +19,19 @@ $echo -e "40\n4\n5" | ./syodou
 ## 使用方法
 - 以下の手順で使用することができます。
 ```
-1 リポジトリをクローンする。
+1. リポジトリをクローンする。
 
 $ git clone https://github.com/FullMetallPanic/robosys2025.git
 
-2 ディレクトリに移動する。
+1. ディレクトリに移動する。
 
 $ cd robosys2025
 
-3 実行権限を付与する。
+1. 実行権限を付与する。
 
-$chmod +x syodou
+$ chmod +x syodou
 
-4 その後実行例の様に好きな数字を入力する。
+1. その後実行例の様に好きな数字を入力する。
 ```
 ## 必要なソフトウェア
 - Python
