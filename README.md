@@ -36,6 +36,10 @@ $ echo -e "40\n4\n5" | ./syodou
 
 ## テスト環境
 - Ubuntu 22.04.5 LTS
+- GitHub Actions
+  - OS: ubuntu-latest
+  - Python: 3.7 ～ 3.14
+
 
 ## 謝辞
 
